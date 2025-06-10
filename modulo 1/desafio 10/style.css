@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(37, 39, 41);
+    color: #55e65c;
+    text-align: center;
+    p{
+        text-align: justify;
+    }
+    img{
+        border-radius: 50%;
+        
+    }
+    ul{
+        background-color: rgb(59, 63, 66);
+        text-align: left;
+        color: rgb(0, 0, 0);
+    }
+    a{
+        color: #55e65c;
+    }
+
+}

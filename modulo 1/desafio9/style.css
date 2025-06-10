@@ -1,0 +1,18 @@
+body {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+}
+h1 {
+    color: white;
+}
+image {
+    text-align: center;
+    padding: 20px;
+    border: 10px solid white;
+}
+a {
+    color: white;
+}
+video {
+    border: 10px solid white;
+}

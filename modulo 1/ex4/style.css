@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(139, 148, 235);
+    border-left: 01cap;
+    text-align: left;
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+
+footer{
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.navegacao{
+    background-color: rgb(85, 82, 79);
+    
+}
