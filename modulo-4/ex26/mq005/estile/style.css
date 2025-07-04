@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+html {
+    height: 100vh;
+}
+header {
+    text-align: center;
+    background-color: rgb(153, 153, 153);
+}
+menu {
+    text-align: left;
+    margin-left: 5px;
+}
+menu li {
+    display: inline-block;
+    padding: 7px;
+    list-style: none;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+body {
+    background-color: rgb(192, 192, 192);
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    margin: 10px auto;
+    padding: 10px;
+}
+h2 {
+    margin: 10px;
+}
+p {
+    line-height: 1.3em;
+    text-indent: 15px;
+    margin: 15px;
+}
