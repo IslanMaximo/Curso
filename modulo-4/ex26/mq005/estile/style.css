@@ -11,18 +11,25 @@ html {
 }
 header {
     text-align: center;
-    background-color: rgb(153, 153, 153);
+    background-color: rgb(155, 155, 155);
 }
 menu {
-    text-align: left;
     margin-left: 5px;
 }
+.material-symbols-outlined {
+    display: block;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
 menu li {
-    display: inline-block;
+    display: block;
     padding: 7px;
     list-style: none;
     background-color: rgb(71, 71, 71);
     color: white;
+}
+menu li:hover {
+    background-color: grey;
 }
 body {
     background-color: rgb(192, 192, 192);
@@ -37,6 +44,7 @@ h2 {
     margin: 10px;
 }
 p {
+    text-align: justify;
     line-height: 1.3em;
     text-indent: 15px;
     margin: 15px;
