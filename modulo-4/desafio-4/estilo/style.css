@@ -4,6 +4,7 @@
     margin: 0%;
     padding: 0%;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
 }
 
 html{
@@ -28,19 +29,7 @@ section#login{
     transition: width 0.7s;
     transition-timing-function: ease;
 }
-section#login h1{
-    font-size: 1.4em;
-    margin: 5px;
-}
-section#login p{
-    margin: 5px;
-    font-size: 0.8em;
-}
-section#login form{
-    width: 100%;
-    margin-left:20% ;
-    text-align: left;
-}
+
 section#login div#img{
     border-radius: 10px 10px 0px 0px;
     display: block;
@@ -48,9 +37,28 @@ section#login div#img{
     background: url("../img/torriton.jpg") center center no-repeat fixed;
     background-size: cover;
 }
-section#login div#form{
+section#login div#form {
+    padding: 15px;
     display: block;
-    padding: 10px;
+    margin: auto;
+    height: calc(100% - 151px);
+}
+div#form div#input {
+    background-color: rgb(158, 116, 0);
+    margin: 10px 0px;
+}
+div#input span {
+    height: 100%;
+    background-color: black;
+}
+
+div#form div#input input {
+    width: calc(100% - 80px);
+    height: 100%;
+    margin: 5px 0px;
+}
+div#input label {
+    display: none;
 }
 form input[type=submit] {
     display: block;
