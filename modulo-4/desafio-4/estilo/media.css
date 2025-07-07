@@ -13,8 +13,8 @@ grandes telas acima de 1200px */
         background-image: linear-gradient( to bottom , rgb(158, 108, 1), rgb(104, 71, 0) , black );
     }
     section#login {
-    width: 80%;
-    
+        width: 80%;
+        height: 500px;
     }
     section#login div#img {
         border-radius: 10px 0px 0px 10px;
@@ -33,8 +33,8 @@ grandes telas acima de 1200px */
         background-image: linear-gradient( to bottom , rgb(158, 108, 1), rgb(104, 71, 0) , black );
     }
     section#login {
-    width: 992px;
-    
+        width: 992px;
+        height: 500px;
     }
     section#login div#img {
         border-radius: 10px 0px 0px 10px;
