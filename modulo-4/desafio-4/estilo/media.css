@@ -41,7 +41,7 @@ grandes telas acima de 1200px */
         background-color: black;
         background-size: contain;
         float: left;
-        width: 400px;
+        width: 500px;
         height: 100%;
     }
     section#login div#form {
