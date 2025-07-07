@@ -6,6 +6,8 @@
     <title>Desafio</title>
     <link rel="stylesheet" href="estilo/style.css">
     <link rel="stylesheet" href="estilo/media.css" media="all">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <main> 
@@ -15,6 +17,21 @@
             <div id="form">
                 <h1>Login</h1>
                 <p>Bem vindo !!! Realize seu login</p>
+                <form action="iform" method="post" autocomplete="on">
+                    <div>
+                        <span class="material-icons">person</span>
+                        <input type="email" name="email" id="iemail" required placeholder="E-mail" autocomplete="email">
+                        <label for="ilog">Loging</label>
+                    </div>
+                    <div>
+                        <span class="material-icons">vpn_key</span>
+                        <input type="password" name="Password" id="ipassword" required placeholder="SENHA" autocomplete="current-password" minlength="8" maxlength="20">
+                        <label for="ipassword"> Password</label>
+                    </div>
+                    <input type="submit" name="" id="">
+                    <a href="#">Esqueci a senha <span class="material-icons">mail</span></a>
+                    
+                </form>
             </div>
         </section>
     </main>
